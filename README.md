@@ -72,7 +72,7 @@ cd TechFlow
 
 # Instale as dependências
 pip install -r requirements.txt
-g
+
 # Execute a aplicação
 python src/app.py
 ```
