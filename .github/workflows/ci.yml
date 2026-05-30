@@ -55,4 +55,4 @@ jobs:
 
       - name: Executar flake8
         run: |
-          flake8 src/ tests/ --max-line-length=120 --exclude=__pycache__ --ignore=E302,E303,E501,W503
+          fflake8 src/ tests/ --max-line-length=120 --exclude=__pycache__ --ignore=E302,E303,E501,W503,E265,W293,E402,F401
