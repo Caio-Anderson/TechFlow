@@ -81,6 +81,27 @@ A API estará disponível em `http://localhost:5000`.
 
 ---
 
+# Utilização local
+
+Para testar os endpoints da API, recomenda-se o uso do **Thunder Client**,
+
+### Instalação
+1. Abra o VS Code
+2. Vá em Extensões e pesquise **Thunder Client**
+3. Clique em Instalar
+
+### Configuração das requisições
+Em toda requisição que enviar dados (POST e PUT), adicione o header:
+- **Content-Type**: `application/json`
+
+### Exemplos de uso
+| Método | URL | Descrição |
+|--------|-----|-----------|
+| GET | `http://127.0.0.1:5000/tasks` | Lista todas as tarefas |
+| GET | `http://127.0.0.1:5000/tasks/1` | Busca tarefa por ID |
+| POST | `http://127.0.0.1:5000/tasks` | Cria nova tarefa |
+| PUT | `http://127.0.0.1:5000/tasks/1` | Atualiza tarefa |
+| DELETE | `http://127.0.0.1:5000/tasks/1` | Remove tarefa |
 
 ##  Executar Testes
 
