@@ -106,7 +106,7 @@ Em toda requisição que enviar dados (POST e PUT), adicione o header:
 ##  Executar Testes
 
 ```bash
-pytest tests/ -v
+pytest tests/ -v ou utilize python -m pytest tests/ -v
 ```
 
 Os testes cobrem:
